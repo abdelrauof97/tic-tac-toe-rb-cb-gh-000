@@ -65,9 +65,9 @@ def position_taken?(board, index)
 end
 
 def current_player(board)
-  if turn_count(board) % 2 == 0 
+  if turn_count(board) % 2 == 0
     puts "X"
-  else 
+  else
     puts "O"
 end
 
@@ -84,8 +84,3 @@ def winner(board)
     board[winning_combo.first]
   end
 end
-
-
-
-
-  
